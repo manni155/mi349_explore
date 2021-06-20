@@ -1,0 +1,41 @@
+/* CSS Custom Properties Tutorial */
+
+:root {
+    /* --primary-text-alignment: center; */
+    /* --secondary-text-alignment: right; */
+    /* --primary-background-color: #308446; */
+    /* --primary-font: Arial, Helvetica, sans-serif; */
+    /* --secondary-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+}
+
+
+html {
+    background-color: var(--primary-background-color);
+    font-family: var(--primary-font);
+    display: var(inline-block);
+    text-align: var() ;
+}
+
+section {
+    display: flex;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: var(--primary-text-alignment);
+}
+
+#p1 {
+    text-align: var(--primary-text-alignment);
+    padding: 20px;
+}
+
+#p2 {
+    text-align: var(--secondary-text-alignment);
+    padding: 20px;
+}
+
+#p3 {
+    text-align: var(--secondary-text-alignment);
+    padding: 20px; 
+}
